@@ -1,0 +1,59 @@
+.contact-me {
+   border-top: solid 1px var(--greyish-dark-blue-opacity0-15);
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.contact-me--title {
+   margin: 50px 100px 0px 0px;
+}
+.contact-me__side-text {
+   max-width: 60%;
+}
+.contact-me__side-text--paragraph {
+   margin: 50px 0px 55px 0px;
+}
+.contact-me__social-medias--icons {
+   margin: 0px 16px 50px 0px;
+}
+
+.contact-me-formulary-section {
+   text-align: left;
+   margin-top: 50px;
+}
+.contact-me-formulary-section__input {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-bottom: 24px;
+}
+.contact-me-btn {
+   margin-top: 40px;
+   width: 200px;
+}
+.form-input {
+   all: unset;
+   box-sizing: border-box;
+
+   min-width: 625px;
+   height: 48px;
+
+   padding: 10px;
+   font: 16 px "Public Sans", sans-serif;
+
+   border: none;
+   color: black;
+
+   background-color: hsla(245, 10%, 22%, 0.1);
+}
+.text-area {
+   height: 100px;
+
+   resize: none;
+}
+.text-area:focus,
+.form-input:focus {
+   border: 3px solid var(--greyish-dark-blue);
+}

@@ -1,0 +1,51 @@
+.hero-section__button {
+   background: var(--dark-blue);
+   text-align: center;
+   color: white;
+
+   padding: 0px 33px 0px 0px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.hero-section__icon {
+   background-color: rgba(0, 0, 0, 0.1);
+   margin-right: 33px;
+   padding: 17px;
+}
+.hero-section__button:hover,
+.submit__button:hover {
+   background-color: var(--desatured-cyan);
+}
+
+.visit-button {
+   padding: 17px 60px;
+   border: 1px solid var(--greyish-dark-blue);
+}
+
+.see-project-button {
+   padding: 17px 38px;
+   border: 1px solid var(--greyish-dark-blue);
+}
+
+.sobre-section__button {
+   padding: 17px 28px;
+   border: 1px solid var(--greyish-dark-blue);
+}
+
+.secondary-btn:hover {
+   color: hsla(0, 0%, 98%, 1);
+   background-color: var(--greyish-dark-blue);
+}
+
+.contato-section__button {
+   border: 1px solid var(--greyish-dark-blue);
+   padding: 17px 50px;
+}
+
+.submit__button {
+   padding: 17px 70px;
+   background-color: var(--dark-blue);
+}

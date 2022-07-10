@@ -1,0 +1,31 @@
+.projeto-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+.projeto-section__apresentation img{
+  max-width: 540px;
+  max-height: 600px;
+}
+
+.projeto-section__side-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 100px 0px 112px 0px;
+  border-top: solid 1px var(--greyish-dark-blue-opacity0-15);
+  border-bottom: solid 1px var(--greyish-dark-blue-opacity0-15);
+}
+
+
+.contato-section{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.contato-section__title{
+  max-width: 365px;
+}

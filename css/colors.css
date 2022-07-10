@@ -1,0 +1,14 @@
+:root{
+  --dark-blue: hsla(205, 41%, 21%, 1);
+  --greyish-dark-blue: hsla(245, 10%, 22%, 1);
+  --desatured-cyan: hsla(168, 36%, 54%, 1);
+
+  --greyish-dark-blue-opacity0-15:hsla(245, 10%, 22%, 0.15);
+  --dark-blue-opacity0-1: hsl(205, 40%, 19%);
+  --desatured-cyan-opacity0-1: hsl(168, 31%, 48%);
+
+  --very-light-grey: hsla(0, 0%, 98%, 1);
+  --light-grey: hsla(240, 2%, 92%, 1);
+
+  --body-color: #F2F2F2;
+}
